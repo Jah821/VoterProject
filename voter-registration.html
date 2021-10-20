@@ -4,24 +4,25 @@
 <head>
     <title>NJ Voter Regestriation</title>
     <link href="voter-registration.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/3f02649ef8.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <header id="header">
+    <header class="nav-container">
         <div class="logo">
-            <img id="header-img" src="https://www.sos.wa.gov/_assets/elections/I_Voted_Sticker_1.png" alt="GO VOTE" />
+            <i class="fas fa-3x fa-person-booth"></i>
         </div>
-
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link" href="#home">Home</a>
-                    <li><a class="nav-link" href="#how-it-works">How It Works</a></li>
-                    <li><a class="nav-link" href="#pricing">Pricing</a></li>
-            </ul>
-        </nav>
+        <ul class="nav-links">
+            <li><a href="#features">Voter Registration</a></li>
+            <li><a href="#how-it-works">How to Vote</a></li>
+            <li><a href="#pricing">Voting / Locations</a></li>
+        </ul>
     </header>
     <main>
-        <form class="registration-form">
+        <h2>ARE YOU REGISTERED TO VOTE?</h2>
+
+        <form class="registration-form flex-container">
             <input type="text" name="firstName" />
             <input type="text" name="lastName" />
             <input type="text" name="middleInitial" />
@@ -220,181 +221,185 @@
             <p>A current and valid Driver’s License or a non-driver Identification Card (ID card) issued by the New Jersey Motor Vehicle Commission (MVC) Your information will be provided to the MVC to validate identification, and to retrieve a copy of your
                 digitized signature.</p>
             <p>A Social Security number To use your social security number, you must have the ability to sign on-screen or upload your signature to complete the registration process. If you are unable to provide a digital signature, you can not register
-                online.</p>
+                online.
+            </p>
             <button type="button"><a href="https://voter.svrs.nj.gov/register">Register to Vote Online</a></button>
         </div>
         <div class="paper-registration-infoCard">
             <h2>Voter Registration Paper Applications</h2>
             <p>Select your county below. Download the form, fill it out, print it out and send it into your <span><a href="https://nj.gov/state/elections/vote-county-election-officials.shtml">County Commissioner of Registration or Superintendent of Elections</a></span>                for your county</p>
+            <div class=>
+                <details class="details-example">
+                    <summary>Atlantic County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-atlantic.pdf">Atlantic County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-atlantic.pdf">Atlantic County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Bergen County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-bergen.pdf">Bergen County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-bergen.pdf">Bergen County Voter Registration Application - Espanol</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-korean-bergen.pdf">Bergen County Voter Registration Application - Korean</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Burlington County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-burlington.pdf">Burlington County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-burlington.pdf">Burlington County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Camden County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-camden.pdf">Camden County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-camden.pdf">Camden County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Cape May County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-capemay.pdf">Cape May County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-capemay.pdf">Cape May County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Cumberland County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-cumberland.pdf">Cumberland County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-cumberland.pdf">Cumberland County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Essex County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-essex.pdf">Essex County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-essex.pdf">Essex County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Gloucester County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-gloucester.pdf">Gloucester County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-gloucester.pdf">Gloucester County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Hudson County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-hudson.pdf">Hudson County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-hudson.pdf">Hudson County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Hunterdon County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-hunterdon.pdf">Hunterdon County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-hunterdon.pdf">Hunterdon County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Mercer County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-mecer.pdf">Mercer County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-mecer.pdf">Mercer County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Middlesex County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-middlesex.pdf">Middlesex County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-middlesex.pdf">Middlesex County Voter Registration Application - Espanol</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-gujarati-middlesex.pdf">Middlesex County Voter Registration Application - Gujarati</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-hindi-middlesex.pdf">Middlesex County Voter Registration Application - Hindi</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-punjabi-middlesex.pdf">Middlesex County Voter Registration Application - Punjabi</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Monmouth County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-monmouth.pdf">Monmouth County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-monmouth.pdf">Monmouth County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Morris County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-morris.pdf">Morris County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-morris.pdf">Morris County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Ocean County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-ocean.pdf">Ocean County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-ocean.pdf">Ocean County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Passaic County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-passaic.pdf">Passaic County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-passaic.pdf">Passaic County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Salem County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-salem.pdf">Salem County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-salem.pdf">Salem County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Somerset County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-somerset.pdf">Somerset County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-somerset.pdf">Somerset County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Sussex County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-sussex.pdf">Sussex County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-sussex.pdf">Sussex County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Union County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-union.pdf">Union County Voter Registration Applications - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-union.pdf">Union County Voter Registration Applications - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Warren County Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-warren.pdf">Warren County Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-warren.pdf">Warren County Voter Registration Application - Espanol</a></li>
+                    </ul>
+                </details>
+                <details class="details-example">
+                    <summary>Statewide Voter Registration Applications</summary>
+                    <ul>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-arabic.pdf">Statewide Voter Registration Application - Arabic</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-brazilian-portuguese.pdf">Statewide Voter Registration Application - Brazilian Portuguese</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english.pdf">Statewide Voter Registration Application - English</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol.pdf">Statewide Voter Registration Application - Espanol</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-european-portuguese.pdf">Statewide Voter Registration Application - European Portuguese</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-gujarati.pdf">Statewide Voter Registration Application - Gujarati</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-haitian-creole.pdf">Statewide Voter Registration Application - Haitian Creole</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-hindi.pdf">Statewide Voter Registration Application - Hindi</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-korean.pdf">Statewide Voter Registration Application - Korean</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-punjabi.pdf">Statewide Voter Registration Application - Punjabi</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-simplified-chinese.pdf">Statewide Voter Registration Application - Simplified Chinese</a></li>
+                        <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-traditional-chinese.pdf">Statewide Voter Registration Application - Traditional Chinese</a></li>
+                    </ul>
+                </details>
+            </div>
+
         </div>
-        <details class="details-example">
-            <summary>Atlantic County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-atlantic.pdf">Atlantic County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-atlantic.pdf">Atlantic County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Bergen County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-bergen.pdf">Bergen County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-bergen.pdf">Bergen County Voter Registration Application - Espanol</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-korean-bergen.pdf">Bergen County Voter Registration Application - Korean</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Burlington County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-burlington.pdf">Burlington County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-burlington.pdf">Burlington County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Camden County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-camden.pdf">Camden County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-camden.pdf">Camden County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Cape May County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-capemay.pdf">Cape May County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-capemay.pdf">Cape May County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Cumberland County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-cumberland.pdf">Cumberland County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-cumberland.pdf">Cumberland County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Essex County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-essex.pdf">Essex County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-essex.pdf">Essex County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Gloucester County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-gloucester.pdf">Gloucester County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-gloucester.pdf">Gloucester County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Hudson County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-hudson.pdf">Hudson County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-hudson.pdf">Hudson County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Hunterdon County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-hunterdon.pdf">Hunterdon County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-hunterdon.pdf">Hunterdon County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Mercer County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-mecer.pdf">Mercer County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-mecer.pdf">Mercer County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Middlesex County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-middlesex.pdf">Middlesex County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-middlesex.pdf">Middlesex County Voter Registration Application - Espanol</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-gujarati-middlesex.pdf">Middlesex County Voter Registration Application - Gujarati</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-hindi-middlesex.pdf">Middlesex County Voter Registration Application - Hindi</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-punjabi-middlesex.pdf">Middlesex County Voter Registration Application - Punjabi</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Monmouth County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-monmouth.pdf">Monmouth County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-monmouth.pdf">Monmouth County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Morris County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-morris.pdf">Morris County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-morris.pdf">Morris County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Ocean County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-ocean.pdf">Ocean County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-ocean.pdf">Ocean County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Passaic County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-passaic.pdf">Passaic County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-passaic.pdf">Passaic County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Salem County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-salem.pdf">Salem County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-salem.pdf">Salem County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Somerset County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-somerset.pdf">Somerset County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-somerset.pdf">Somerset County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Sussex County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-sussex.pdf">Sussex County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-sussex.pdf">Sussex County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Union County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-union.pdf">Union County Voter Registration Applications - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-union.pdf">Union County Voter Registration Applications - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Warren County Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english-warren.pdf">Warren County Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol-warren.pdf">Warren County Voter Registration Application - Espanol</a></li>
-            </ul>
-        </details>
-        <details class="details-example">
-            <summary>Statewide Voter Registration Applications</summary>
-            <ul>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-arabic.pdf">Statewide Voter Registration Application - Arabic</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-brazilian-portuguese.pdf">Statewide Voter Registration Application - Brazilian Portuguese</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-english.pdf">Statewide Voter Registration Application - English</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-espanol.pdf">Statewide Voter Registration Application - Espanol</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-european-portuguese.pdf">Statewide Voter Registration Application - European Portuguese</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-gujarati.pdf">Statewide Voter Registration Application - Gujarati</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-haitian-creole.pdf">Statewide Voter Registration Application - Haitian Creole</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-hindi.pdf">Statewide Voter Registration Application - Hindi</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-korean.pdf">Statewide Voter Registration Application - Korean</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-punjabi.pdf">Statewide Voter Registration Application - Punjabi</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-simplified-chinese.pdf">Statewide Voter Registration Application - Simplified Chinese</a></li>
-                <li><a href="https://nj.gov/state/elections/assets/pdf/forms-voter-registration/68-voter-registration-traditional-chinese.pdf">Statewide Voter Registration Application - Traditional Chinese</a></li>
-            </ul>
-        </details>
     </main>
 </body>
 
