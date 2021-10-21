@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 p,
 h1,
 h2{
@@ -64,31 +68,40 @@ body{
     display:flex;
     flex-direction: column;
     background-color:white;
-    Justify-content: center;
+    justify-content: space-evenly;
     align-content: center;
     align-items:center;
-    margin-left: 30px;
-    margin-right: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
     text-align: center;
+    
 }
 
 .block-2 h2,
 .block-2 p{
     color:black;
+    margin:50px;
 }
 
 .block-3{
     display: grid;
-    grid-template-areas: "block-3-img"
-                         "block-3-text";
+    grid-template-areas: "image";
     justify-content: center;
+    align-items: center;
     text-align: center;
+    grid-template-rows: minmax(187px,552px);
+    grid-template-columns: minmax(240px,670px);
 }
 
 .block-3-img{
-    grid-area: block-3-img;
-    min-width:240px;
+    grid-areas: image; 
+    min-width: 187px;
     max-width: 100%;
-    height: auto;
+    height:auto;
+    padding: 0 30px;
+}
+
+.voting-info-button{
+    
 }
 
