@@ -1,3 +1,7 @@
+*{
+    border-
+}
+
 table* {
 font-size: 12px;
 margin-left:auto;
@@ -15,3 +19,35 @@ border: 1px solid #999999;
 padding: 5px 5px;
 }
 
+h2{
+    text-align: center;
+}
+
+#nav-bar {
+  background-color: yellow; 
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#nav-bar li {
+	
+  display: inline;
+  font-size: 20px;
+  padding: 15px;
+}
+
+#nav-bar ul{
+    display: inline-block;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    vertical-align:top;
+}
+
+#header-img{
+    width:100px;
+    display:inline-block;
+    padding:0px;
+    margin:0px;
+}
