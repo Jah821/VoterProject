@@ -1,0 +1,94 @@
+p,
+h1,
+h2{
+    color:white;
+}
+h1,h2{
+    font-family: 'Spectral', Georgia, "Times New Roman", serif;
+}
+
+p{
+    font-family: helvetica;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+  width: 100vw;
+  position: fixed;
+  text-align: center;
+  top: 0;
+  z-index: 2;
+  background-color: gold;
+  margin: auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav-links li {
+    display:inline;
+    list-style-type: none;
+    padding-right: 10%;
+}
+
+body{
+    background-color:black;
+    margin-top:4rem;
+    margin-left: auto;
+    margin-right:auto;
+}
+
+.title-block{
+    display: grid;
+    grid-template-areas: "image"
+                         "title";
+    grid-template-rows: minmax(200px, 483px), minmax(230px,289px);
+    grid-template-columns: minmax(300px, 724px);
+    justify-content:center;
+    text-align: center;
+}
+
+.title-block-img{
+    grid-area: image;
+    min-width: 300px;
+    max-width: 100%;
+    height: auto;
+}
+
+.block-2{
+    display:flex;
+    flex-direction: column;
+    background-color:white;
+    Justify-content: center;
+    align-content: center;
+    align-items:center;
+    margin-left: 30px;
+    margin-right: 30px;
+    text-align: center;
+}
+
+.block-2 h2,
+.block-2 p{
+    color:black;
+}
+
+.block-3{
+    display: grid;
+    grid-template-areas: "block-3-img"
+                         "block-3-text";
+    justify-content: center;
+    text-align: center;
+}
+
+.block-3-img{
+    grid-area: block-3-img;
+    min-width:240px;
+    max-width: 100%;
+    height: auto;
+}
+
