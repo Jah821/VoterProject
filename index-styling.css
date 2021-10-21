@@ -3,8 +3,9 @@ h1,
 h2{
     color:white;
 }
-h1,h2{
+h1,h2,h3{
     font-family: 'Spectral', Georgia, "Times New Roman", serif;
+    color: white;
 }
 
 p{
