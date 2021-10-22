@@ -1,14 +1,31 @@
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
-
-
-.month{
-    padding: 10px;
+body {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  min-height: 100vh;
 }
 
+#main {
+  display: flex;
+  flex:1;
+}
 
+#main > article {
+  flex:1;
+}
+
+#main article{
+  flex : 20 20 20vw;
+  background: beige;
+}
+
+#main > article {
+  order: -1;
+}
 
 /*Css Calender*/
 
