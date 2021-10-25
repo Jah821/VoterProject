@@ -116,6 +116,10 @@ body{
   font-size: 50px;
 }
 
+#carouselExampleIndicators{
+    background-color: #5899e2;
+}
+
 footer{
     background-color:#1e3b70;
 }
