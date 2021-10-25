@@ -109,6 +109,7 @@ body{
 }
 
 .facts {
+    margin-top:50px;
   height: 400px;
 }
 .facts h1 {

@@ -1,10 +1,13 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0 12px;
   box-sizing: border-box;
   font-family: helvetica;
 }
 
+body{
+  background-color:#ecf2f8 ;
+}
 a {
   color: black;
   text-decoration: none;
@@ -12,15 +15,17 @@ a {
 }
 
 h2 {
-  color: #0071bc;
+  background-color:#1e3b70;
+  color: white;
 }
 
 .registration-requirements h4,
 h3 {
   color: #11385b;
 }
-
-.registration-requirements,
+/*.registration-requirements{*/
+/*  background-color:#5fbbe2;*/
+/*}*/
 .FAQ-section,
 .online-registration-infoCard,
 .paper-registration-infoCard,
@@ -80,3 +85,8 @@ details>summary {
   background-color: #ddd;
   border: none;
 }
+
+footer{
+    background-color:#1e3b70;
+}
+
