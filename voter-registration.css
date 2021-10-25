@@ -74,6 +74,8 @@ iframe {
 
 details {
   border: 1px solid black;
+  padding-left: 0;
+  padding-right: 0;
 }
 
 details>summary {
