@@ -3,97 +3,165 @@
 
 <head>
     <meta charset="utf-8">
-    <title>How To Vote</title>
-    <meta name="description" content="This is an example of how to vote in America">
-    <link href="howtovote.css" rel="stylesheet" />
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <meta name="HandheldFriendly" content="true">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>How to Vote</title>
+    <!--AnimateCss-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <!--BootstrapLinkCss-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="howtovote.css" />
 </head>
 
 <body>
-    <div class="container">
-        <div class="navcontainer">
-            <nav>Navbar</nav>
-            <main>
-                <div>
-                    <iframe width="1000px" height="500px" src="https://www.youtube.com/embed/_hBioCFYnIw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                </div>
-            </main>
-            <div id="content1">
-                <p>In-Person Early Voting</p>
-                <ul>
-                    <li>Ability to cast your vote in person, using a voting machine, during a nine day period prior to Election Day</li>
-                    <li>You are allowed to cast your ballot at your county's designated in-person early voting location</li>
-                    <li>In Person Early Voting Locations will be open Saturday 23rd through Sunday October 31</li>
-                    <li>Hours will be:</li>
-                    <ul>
-                        <li>Monday - Saturday: 10:00am - 8:00pm</li>
-                        <li>Sunday: 10:00am - 6:00pm</li>
+    <header class="container-fluid bg-light">
+        <!--Navbar-->
+        <nav class="navbar navbar-expand-md navbar-light bg-light">
+            <div class="container-fluid justify-content-space-between">
+                <a class="navbar-brand" href="#">
+                  <img src="https://statesymbolsusa.org/sites/statesymbolsusa.org/files/styles/symbol_thumbnail__medium/public/primary-images/FlagofNewJerseystateflag.jpg?itok=7wkqrLlR" alt="" width="75" height="75">
+                  NJ VOTES!
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./project.html">Meet the Candidates</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./voter-registration.html">Voter Registraion</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./How-To-Vote.html">How to Vote</a>
+                        </li>
                     </ul>
+                </div>
             </div>
-            <div class="month">
-                <ul>
-                    <li class="prev">&#10094;</li>
-                    <li class="next">&#10095;</li>
-                    <li>October<br><span style="font-size:18px">2021</span></li>
-                </ul>
+        </nav>
+    </header>
+    <!--Blurb1-->
+    <main class="container-expand lh">
+        <div class="container-fluid showcase text-light text-center ">
+            <div class="row justify-content-center align-items-center">
+                <div class="col-12">
+                    <h6>STAY INFORMED</h6>
+                    <h1> Voter Information Center</h1>
+                </div>
             </div>
+        </div>
+        <div class="container text-center showcase-text">
+            <div class="row">
+                <div class="col-12">
+                    <h1 class="light-blue-text">Here is your one-stop shop for all the information you need to vote safely and securely in New Jersey.</h1>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="h-divider"></div>
+        </div>
+        <div class="container box-1">
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col-12">
+                        <h1 class="dark-blue-text">The General Election will be held on November 2, 2021.</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 light-blue-block">
+                    <h2 class="mx-3">Register to vote</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="dark-blue-text-2 dark-blue-text text-center animate__animated animate__fadeIn bold">WANT TO REGISTER TO VOTE IN NJ?</h2>
+                    <p>Sign up online today</p>
+                </div>
+            </div>
+        </div>
 
-            <ul class="weekdays">
-                <li>Mo</li>
-                <li>Tu</li>
-                <li>We</li>
-                <li>Th</li>
-                <li>Fr</li>
-                <li>Sa</li>
-                <li>Su</li>
-            </ul>
+            <div class="container-expand dark text-light">
+                <div class="row reverse">
+                    <div class="col-12 col-md-6 dark-blue-block">
+                        <h2 class="mx-3">Vote by mail</h2>
+                    </div>
+                    <div class="col-12 col-md-6 text-right">
+                        <h4 class="dark-blue-text animate__animated animate__fadeIn bold">WANT TO VOTE-BY-MAIL?</h3>
+                        <h2>Get your application here.</h2>
+                    </div>
+                </div>
 
-            <ul class="days">
-                <li><span class="active">23</li>
-                  <li>24</li>
-                  <li>25</li>
-                  <li>26</li>
-                  <li>27</li>
-                  <li>28</li>
-                  <li>29</li>
-                  <li>30</li>
-                  <li>31</li>
-                </ul>
-     
-     
-   <div id="content2">
-   <div>At Your Polling Place on Election Day</div>
-     <ul>
-         <li>Vote in person at your pollin place, from 6:00 am to 8:00pm on Election Day, November 2.</li>
-         <li>Accomandtions will be made for voters with disabilites</li>
-         <li>Various language trasnlators will be available as well</li>
-         <li>Find your local Polling Place here:<a href="https://voter.svrs.nj.gov/polling-place-search" title="Find your local polling place" target="_blank">(Find Out Where Your Local Polling Place is located) </a></li>
-         </ul>
-   
-   
-   </div>
-   <div id="content3">
-      <div>Vote By Mail Ballot</div>
-        <ul>
-          <li>Contact your County Clerk for instructions on recieving an Absentee Ballot<li>
-          <aside>Absentee Ballot must be postmarked on or before 8:00pm November 2nd and reciecved by your county's Board of Elections on or before November 8th.</aside>
-          <li>Vote and Return your ballot by one of the following ways:</li>
-            <ul>
-              <li>By Mail</li>
-               <li>Secure Ballot Drop Box</li>
-               <li>Board Of Elections Office <a href="https://nj.gov/state/elections/vote.shtml" title="Check Out Your Local Board Of Elections Office" target="_blank"> (Find Out Where Your Local Board of Elections Office is Located) </a></li>
-           </ul>
-        </ul>
-     </div>
-   </div>
-       <footer>
-           <ul>
-               <li>HHh</li>
-           </ul>
-       </footer>
-    </div>
-    </div>
+                    <!--    <div class="row">-->
+                    <!--        <div class="col-12 col-md-6 light-blue-block" >-->
+                    <!--            <h2 class ="mx-3">Register to vote</h2>-->
+                    <!--        </div>-->
+                    <!--        <div class="col-12 col-md-6">-->
+                    <!--            <h2 class="text-center animate__animated animate__fadeIn bold">WANT TO REGISTER TO VOTE IN NJ?</h2>-->
+                    <!--            <p>Sign up online today</p>-->
+                    <!--        </div>-->
+                    <!--    </div>-->
+                    <!--</div>-->
+                    <!--Blurb2-->
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <h3 class="mx-3">All vote-by-mail applications for the General Election must be received via mail by your county clerk by October 26, 2021. Voters can apply in person at their county clerk until 3:00pm on November 1, 2021.</h2>
+                    </div>
+                    <div class="col-12 col-md-6 text-right">
+                        <h4 class="dark-blue-text animate__animated animate__fadeIn bold">DROPPING OFF YOUR MAIL-IN-BALLOT?</h3>
+                        <h2>Find a secure drop box near you</h2>
+                        <h4>Vote-bymail ballots CANNOT be returned to your early voting location or polling place.</h4>
+                        <h6><a href="https://nj.gov/state/elections/vote-secure-drop-boxes.shtml">FIND A DROP BOX</a></h6>
+                    </div>
+                </div>
+                </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 light-blue-block">
+                    <h2 class="mx-3">Find your early voting location here.</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="dark-blue-text-2 dark-blue-text text-center animate__animated animate__fadeIn bold">VOTING EARLY IN-PERSON</h2>
+                    <p>For the first time in New Jersey voting history, there are <span>NINE full days of early in-person voting</span> from Saturday, October 23 to Sunday, October 31.</p>
+                    <p>Hours are Monday-Saturday, 10 AM - 8 PM  and Sunday 10 AM -6 PM.</p>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row reverse">
+                <div class="col-12 col-md-6 light-blue-block">
+                    <h2 class="mx-3">Voting in-person on Election Day? Find your polling location.</h2>
+                </div>
+                <div class="col-12 col-md-6">
+                    <h2 class="dark-blue-text-2 dark-blue-text text-center animate__animated animate__fadeIn bold">VOTING ON ELECTION DAY</h2>
+                    <p>Cast your votes at your polling location from 6 AM to 8 PM on Tuesday, November 2.</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!--FactsCarousel-->
+    <!--<div class="container mx-auto video mt-5">-->
+    <!--    <iframe src="https://www.youtube.com/embed/rgMwh5Fnp3I" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>-->
+    <!--</div>-->
+    <footer class="container-fluid bg-dark mt-5 footer pt-5">
+        <div class="row">
+            <div class="col-12">
+                <a href="#" class="p-2 text-light">Privacy</a>
+                <a href="#" class="p-2 text-light">Terms</a>
+                <a href="#" class="p-2 text-light">Conditions</a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 text-light">
+                &copy Copyright 2021 Marcy Lab School
+            </div>
+        </div>
+    </footer>
+    <!--BootstrapLinkJs-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
+
 </html>

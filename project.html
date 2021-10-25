@@ -3,181 +3,188 @@
   <main>
     <head>
         <title>NJ Voter Regestriation</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
         <link href="project.css" rel="stylesheet"/>
+        <script src="https://kit.fontawesome.com/3f02649ef8.js" crossorigin="anonymous"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
     </head>
 <body>
- <div id="page-wrapper">
-  <header id="header">
-    <div class="logo">
-      <img
-        id="header-img"
-        src="https://www.sos.wa.gov/_assets/elections/I_Voted_Sticker_1.png"
-        alt="GO VOTE"
-      />
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NJ Votes!</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./project.html">Meet the Candidates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./voter-registration.html">Voter Registraion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./How-To-Vote.html">How to Vote</a>
+          </li>
+        </ul>
+      </div>
     </div>
-
-    <nav id="nav-bar">
-      <ul>
-        <li><a class="nav-link" href="#home">Home</a></li>
-        <li><a class="nav-link" href="#how-to-vote">How to Vote</a></li>
-        <li><a class="nav-link" href="#voter-registration">Voter Registration</a></li>
-        <li><a class="nav-link" href="#polling-locations">Polling Locations</a></li>
-      </ul>
-    </nav>
-  </header>
+  </nav>
+ <!--<header class = "nav-container">-->
+ <!--       <div class="logo">-->
+ <!--           <i class="fa-solid fa-person-booth"></i>-->
+ <!--       </div>-->
+ <!--           <ul class = "nav-links">-->
+ <!--               <li><a href="index.html">Home</a>-->
+ <!--               <li><a href="project.html">Candidate Information</a></li>-->
+ <!--               <li><a href="voter-registration.html">Voter Registraion</a></li>-->
+ <!--               <li><a href ="How-To-Vote.html">How To Vote</a></li>-->
+ <!--           </ul>-->
+ <!-- </header>-->
   <div>
-    <div>
-      <img 
-      id="phil-murphy"
-      src="https://ucmweb.rutgers.edu/magazine/1419archive/sites/magazine/files/w18_Philip_D._Murphy_inline.jpg" 
-      alt="Phil Murphy(D)"
-      />
+    <div class = "container">
+      <img src="https://static.politico.com/53/30/1a839fd6499d99ba0a7129af3a45/200907-phil-murphy-ap-773.jpg" class="img-fluid">
     </div> 
     <div>
-      <h1>Candidate For Governor:Phil Murphy(D)</h1>
+      <h1>Candidate For Governor: Phil Murphy (D)</h1>
       
-        <div class="platform-issues"><a href="https://murphy4nj.com/issues/affordable-housing/">
-         <h2>Affordable Housing</h2>
-         <p>Phil Murphy is committed to strengthening New Jersey's position as the best place in America to raise a family. He understands that increasing the availability of affordable housing is one of the most important steps to help strengthen communities, build up the economy, and grow the middle class.</p>
+        <div class="platform-issues card-1">
+          <a href="https://murphy4nj.com/issues/affordable-housing/">
+            <h2>Affordable Housing</h2>
+            <p>Phil Murphy is committed to strengthening New Jersey&#8217;s position as the best place in America to raise a family.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="https://murphy4nj.com/issues/environment/">
+        <div class="platform-issues card-2"><a href="https://murphy4nj.com/issues/environment/">
           <h2>Clean Energy and the Environment</h2>
-          <p>Phil Murphy has proudly taken steps to combat climate change and protect New Jersey’s air, water, and natural resources for a stronger, fairer, and more sustainable future. Phil is making the fight against climate change a critical part of New Jersey’s economy by investing in people and communities, ensuring environmental justice for all, creating good-paying jobs, and leading the way in the global clean energy transition.</p>
+          <p>Phil Murphy has proudly taken steps to combat climate change and protect New Jersey&#8217;s air, water, and natural resources for a stronger, fairer, and more sustainable future.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="https://murphy4nj.com/issues/criminal-justice-reform/">
+        <div class="platform-issues card-3"><a href="https://murphy4nj.com/issues/criminal-justice-reform/">
           <h2>Criminal Justice Reform</h2>
-          <p>Phil Murphy believes a stronger New Jersey is one that ensures and protects justice for all — a fairer New Jersey recognizes the powerful truth of the words Black Lives Matter. Having previously served on the national Board of Directors of the NAACP, Phil has worked with and learned from the world’s oldest civil rights organization. Although much work remains, he has placed New Jersey at the forefront of the national fight for fairness in the criminal justice system.</p>
+          <p>Phil Murphy believes a stronger New Jersey is one that ensures and protects justice for all — a fairer New Jersey recognizes the powerful truth of the words Black Lives Matter. Having previously served on the national Board of Directors of the NAACP, Phil has worked with and learned from the world&#8217;s oldest civil rights organization. Although much work remains, he has placed New Jersey at the forefront of the national fight for fairness in the criminal justice system.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="https://murphy4nj.com/issues/economy-and-jobs/">
+        <div class="platform-issues card-4"><a href="https://murphy4nj.com/issues/economy-and-jobs/">
           <h2>Economy and Jobs</h2>
-          <p>Phil Murphy believes that the economy thrives when every New Jerseyan, in every community, benefits from its growth. A stronger economy means good jobs at better wages, and a fairer economy respects organized labor’s seat at the bargaining table, making sure all workers are guaranteed strong protections in the workplace.</p>
+          <p>Phil Murphy believes that the economy thrives when every New Jerseyan, in every community, benefits from its growth. A stronger economy means good jobs at better wages, and a fairer economy respects organized labor&#8217;s seat at the bargaining table, making sure all workers are guaranteed strong protections in the workplace.</p>
           </a>
         </div>
-    
-      <h3>Candidate Stance</h3>
     </div>
       
     </div>
   </div>
   
   <div>
-    <div>
-      <img 
-      id="jack-ciattarelli"
-      src="https://tapinto-production.s3.amazonaws.com/uploads/photos/ja/best_crop_d76fe1acc7c4f9e878e8_mini_magick20210710-30420-ucxeiw.jpg?id=3626563" 
-      alt="Jack Ciattarelli"
-      />
+    <div class = "container">
+      <img src="https://www.gannett-cdn.com/presto/2021/09/21/PNJM/f1517f65-0c56-48eb-bb6b-8fc8782fd125-092121JerseyCityJackCiattarelli02.JPG?crop=2599,1462,x0,y132&width=2599&height=1462&format=pjpg&auto=webp" class="img-fluid">
     </div> 
     <div>
-      <h1>Candidate For Governor:Jack Ciattarelli(R)</h1>
+      <h1>Candidate For Governor: Jack Ciattarelli (R)</h1>
       
-        <div class="platform-issues"><a href="">
+        <div class="platform-issues card-1"><a href="">
          <h2>Lower Property & Affordable Home Ownership</h2>
-         <p>“New Jersey can and should be a place where our residents can afford to live and work for generations. As Governor, Jack Ciattarelli will lower your property taxes through comprehensive reform of our broken school funding formula – a system where 60% of state aid goes to just 5% of the districts is unsustainable.”</p>
+         <p>New Jersey can and should be a place where our residents can afford to live and work for generations. As Governor, Jack Ciattarelli will lower your property taxes through comprehensive reform of our broken school funding formula &#8211; a system where 60% of state aid goes to just 5% of the districts is unsustainable.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-2"><a href="">
           <h2>Combating Anti-Semitism and Prejudice</h2>
-          <p>"As Governor, I will promote diversity and inclusion, and speak out loudly against prejudice or racism of any kind, including the virulent strain of anti-Semitism and anti-Israel sentiment that has targeted our Jewish friends and neighbors in New Jersey, and abroad."</p>
+          <p>As Governor, Jack will promote diversity and inclusion, and speak out loudly against prejudice or racism of any kind, including the virulent strain of anti-Semitism and anti-Israel sentiment that has targeted our Jewish friends and neighbors in New Jersey, and abroad.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-3"><a href="">
           <h2>Make Health Insurance More Affordable</h2>
           <p>Ensuring access to affordable, high-quality healthcare and putting patients and their doctors in control of personal healthcare decisions, are imperative.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-4"><a href="">
           <h2>Affordable Energy & Clean Environment</h2>
           <p>Attain the cleanest environment possible and address climate change. We must minimize pollutants and carbon emissions, reduce dependence on fossil fuels, and ultimately transition to cleaner, renewable energy sources. </p>
           </a>
         </div>
-    
-      <h3>Candidate Stance</h3>
     </div>
       
     </div>
   </div>
   
   <div>
-    <div>
-      <img 
-      id="madelyn-hoffman"
-      src="https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/250/450/Madelyn-Hoffman.JPG" 
-      alt="Madelyn Hoffman"
-      />
+    <div class = "container">
+      <img src="https://pbs.twimg.com/media/E3TpG3oXMAUlCAI.jpg:large" class="img-fluid" alt="...">
+      <!--<img -->
+      <!--class ="candidate-img"-->
+      <!--src="https://pbs.twimg.com/media/E3TpG3oXMAUlCAI.jpg:large" -->
+      <!--alt="Madelyn Hoffman"-->
+      <!--/>-->
     </div> 
     <div>
-      <h1>Candidate For Governor: Madelyn Hoffman</h1>
+      <h1>Candidate For Governor: Madelyn Hoffman (G)</h1>
       
-        <div class="platform-issues"><a href="">
+        <div class="platform-issues card-1"><a href="">
          <h2>Environment Justice</h2>
          <p>Madelyn Hoffman supports a Real, Ecosocialist Green New Deal, similar to the one proposed by Howie Hawkins over a decade ago. While, ideally, this legislation would come from the federal government, Madelyn would support creating state level legislation to support such policies here in New Jersey until it is passed federally.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-2"><a href="">
           <h2>Social and Racial Justice</h2>
-          <p>Social Justice must be improved in New Jersey, as in the rest of the United States.  My administration would actively work towards achieving social justice, a requirement for bringing about the changes we need to see in New Jersey and around the country.</p>
+          <p>Social Justice must be improved in New Jersey, as in the rest of the United States. Madelyn&#8217;s administration would actively work towards achieving social justice, a requirement for bringing about the changes we need to see in New Jersey and around the country.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-3"><a href="">
           <h2>Economic Justice and COVID-19 Relief</h2>
           <p>Madelyn Hoffman supports an Economic Bill of Rights as part of the State Constitution to guarantee certain rights to all workers.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-4"><a href="">
           <h2>Grassroots Democracy</h2>
-          <p>Madelyn Hoffman supports comprehensive reforms to make New Jersey more democratic. Some highlights include ranked choice voting, ballot restructuring, lowering the voting age to 16 years of age, restoring the voting rights of the incarcerated population, expanding Civics education across all age levels, and a move to proportional representation in New Jersey’s legislature and of New Jersey’s electoral votes.</p>
+          <p>Madelyn Hoffman supports comprehensive reforms to make New Jersey more democratic. Some highlights include ranked choice voting, ballot restructuring, lowering the voting age to 16 years of age, restoring the voting rights of the incarcerated population, expanding Civics education across all age levels, and a move to proportional representation in New Jersey&#8217;s legislature and of New Jersey&#8217;s electoral votes.</p>
           </a>
         </div>
-    
-      <h3>Candidate Stance</h3>
     </div>
       
     </div>
   </div>
   
   <div>
-    <div>
+    <div class = "container">
       <img 
-      id="gregg-mele"
+      class="candidate-img"
       src="https://s3.amazonaws.com/ballotpedia-api4/files/thumbs/200/300/Gregg_Mele.jpg" 
       alt="Gregg Mele"
       />
     </div> 
     <div>
-      <h1>Candidate For Governor: Gregg Mele</h1>
+      <h1>Candidate For Governor: Gregg Mele (L)</h1>
       
-        <div class="platform-issues"><a href="">
+        <div class="platform-issues card-1"><a href="">
          <h2>End The Lockdowns</h2>
          <p>Lockdowns don't provide any significant added safety benefit, according to science.  They especially hurt small business and the poor.  They serve to expand the wealth gap and advance crony capitalism. We have never quarantined the healthy.  Everyone should have the choice to stay home or go out.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-2"><a href="">
           <h2>Address Small Business, Taxes, and Leaving the State</h2>
           <p>Our current governor suggests that, if you don't like paying taxes, you are welcome to leave New Jersey.  His strategy is working for the people of our state, who can no longer afford to stay here.  The mass exodus we are experiencing in New Jersey is unprecedented, and will continue until policies change.  Small businesses are struggling with fees and taxes that are crippling their ability to stay afloat and provide jobs for others.  This is causing many businesses to close permanently, and many others to leave the state.  Meanwhile, many small businesses have been shut down while mega-stores were kept open to benefit the current governor's cronies.   We are now left with a budget gap that can't be closed without a federal bailout, money that also comes from you.  With the talent pool in our workforce, there is no need for government dependency, if spending were even marginally responsible.  Then the people could continue to support their families, with no need for any increase in government spending.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-3"><a href="">
           <h2>Promote School Choice/Home Schooling Consumer Options</h2>
           <p>Competition always incentivizes better performance, and education is no different.  School choice will foster competitive educational institutions, to the benefit of our children.  With more efficiently-organized administrations, costs can come down dramatically.  By encouraging school choice and home schooling, where tax revenue follows the student, we can lead the way in academic performance.</p>
           </a>
         </div>
         
-        <div class="platform issues"><a href="">
+        <div class="platform-issues card-4"><a href="">
           <h2>Reduce Medical Regulation / Enable Consumer Choice</h2>
           <p>With COVID-19 cases rising, there is more need for increased hospital and treatment capacity.  Obstacles to our private-sector health care workers need to be removed, and COVID-19 patients need access to drugs that have already been approved elsewhere.  Most disturbing, under the current governor's direction, our vulnerable seniors have been slaughtered in nursing homes receiving COVID-19 patients.</p>
           </a>
@@ -187,11 +194,7 @@
       
     </div>
   </div>
-
-
-  
-  
-  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
   
   <footer>Footer</footer>
