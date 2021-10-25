@@ -9,6 +9,7 @@ align-items: center;
 }
 .dark{
   background-color: #001945;
+  margin-bottom: 50px;
 
 }
 .light-blue-text{
@@ -53,6 +54,10 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
   margin-bottom: 50px;
 }
 
+.dark-blue-background-box{
+  margin-bottom:50px;
+}
+
 .light-blue-block h2{
   margin-bottom: 20%;
   color: white;
@@ -69,24 +74,11 @@ background-image: linear-gradient(315deg, #ffffff 0%, #5899e2 74%);
   display: flex;
   flex-direction: row-reverse;
 }
-.side {
-  background-color: #DAD6EC;
-  font-size: 1.3em;
-  width: 100%;
-  padding-left: 15%;
-  padding-right: 15%;
-  padding-top: 0%;
-  padding-bottom: 2%;
-}
-.side h2 {
-  text-align: center;
-}
-.bold {
-  font-weight: 600;
-}
+
 .box-1 * {
   line-height: 2;
 }
+
 footer .col-12 {
   display: flex;
   justify-content: center;

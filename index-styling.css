@@ -109,8 +109,8 @@ body{
 }
 
 .facts {
-    margin-top:50px;
-  height: 400px;
+  margin-top:50px;
+  height: 300px;
 }
 .facts h1 {
   font-size: 50px;
@@ -122,4 +122,15 @@ body{
 
 footer{
     background-color:#1e3b70;
+}
+
+footer .col-12 {
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 768px) {
+  footer .col-12 {
+    justify-content: flex-end;
+  }
 }
