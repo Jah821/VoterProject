@@ -1,6 +1,5 @@
 body{
   background-color: #ecf2f8;
-  /*margin-top: 6rem;*/
 }
 
 .showcase{
@@ -52,18 +51,12 @@ h2{
     padding-right: 10%;
 }
 
-/*.img-container{*/
-/*  height: 300px;*/
-/*  background-size: cover;*/
-/*  background-image:url("https://static.politico.com/53/30/1a839fd6499d99ba0a7129af3a45/200907-phil-murphy-ap-773.jpg")*/
-/*}*/
 
 .candidate-img{
   min-width: 200px;
   /*width:30%;*/
   max-width: 400px;
   height: auto;
-  /*border: 5px solid black;*/
 }
 
 .platform-issues{
