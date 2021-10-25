@@ -10,7 +10,7 @@ h2{
 h1,h2{
     font-family: 'Spectral', Georgia, "Times New Roman", serif;
     margin-top: 10%;
-    margin-bottom: 10%
+    margin-bottom: 3%
 }
 
 .block-2 h3{
@@ -83,7 +83,7 @@ body{
 
 .block-3-text{
     margin: 0 50px;
-    padding: 10px 20%;
+    padding: 10px 10%;
     border: 5px solid black;
     background-color: white;
 }
