@@ -76,6 +76,9 @@ span{
 .box-1 * {
   line-height: 2;
 }
+footer{
+    background-color:#1e3b70;
+}
 
 footer .col-12 {
   display: flex;
@@ -101,6 +104,8 @@ footer .col-12 {
   .row p {
     text-align: center;
   }
+
+  
   footer .col {
     display: flex;
     justify-content: center;
