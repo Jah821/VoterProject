@@ -9,40 +9,19 @@ h2{
 }
 h1,h2{
     font-family: 'Spectral', Georgia, "Times New Roman", serif;
+    margin-top: 10%;
+    margin-bottom: 10%
 }
 
+.block-2 h3{
+    margin-bottom: 10%;
+}
 p{
     font-family: helvetica;
 }
 
-.nav-container {
-  display: flex;
-  align-items: center;
-  align-content: center;
-  justify-content: space-between;
-  width: 100vw;
-  position: fixed;
-  text-align: center;
-  top: 0;
-  z-index: 2;
-  background-color: grey;
-  margin: auto;
-}
-
-.nav-links {
-  display: flex;
-  justify-content: flex-end;
-}
-
-.nav-links li {
-    display:inline;
-    list-style-type: none;
-    padding-right: 10%;
-}
-
 body{
     background-color:#ecf2f8;
-    /*margin-top:4rem;*/
     margin-left: auto;
     margin-right:auto;
 }
@@ -104,6 +83,7 @@ body{
 
 .block-3-text{
     margin: 0 50px;
+    padding: 10px 20%;
     border: 5px solid black;
     background-color: white;
 }
@@ -133,4 +113,13 @@ footer .col-12 {
   footer .col-12 {
     justify-content: flex-end;
   }
+  
+  h1,h2{
+    margin-top: 3%;
+  }
+  
+  .block-2 h3{
+      margin-bottom: 3%;
+  }
+  
 }
